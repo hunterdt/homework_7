@@ -1,0 +1,35 @@
+html {
+    font-size: 18px;
+}
+
+.post h2 {
+    /*    font-size .9em;*/
+    text-align: center;
+}
+
+.readmore a {
+    width: 58%;
+}
+
+#sidebar img {
+    width: 100%;
+}
+
+
+/*Remove Large first letter*/
+
+.post p:first-of-type:first-letter {
+    float: non;
+    font-size: 1em;
+    line-height: 1.3em;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    font-weight: 300;
+}
+
+.blue,
+.yellow {
+    width: 80%;
+    max-width: 280px;
+}

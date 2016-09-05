@@ -1,0 +1,28 @@
+/*Only the blog page gets this*/
+
+#sidebar {
+    float: right;
+    margin: 0 1.5%;
+}
+
+#posts {
+    float: left;
+    margin-right: 0;
+    width: calc(95% - 240px);
+}
+
+.post img {
+    width: 100%;
+}
+
+#benefits {
+    max-width: 1000px;
+}
+
+#testimonial {
+    background-size: cover;
+}
+
+#testimonial blockquote {
+    max-width: 1000px;
+}

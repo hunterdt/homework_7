@@ -1,0 +1,144 @@
+/*CHANGE FONT SIZES*/
+
+html {
+    font-size: 22px;
+}
+
+
+/*MOBILE NAV LAYOUT*/
+
+header {
+    border-bottom: 0.154rem solid #f8ff00;
+}
+
+
+/*Make Nav Menu Button*/
+
+.hamburger {
+    float: right;
+    padding-top: .9rem;
+}
+
+.line {
+    width: 1.923rem;
+    border: solid 0.077rem #f8ff00;
+    margin: 0.192rem;
+    border-radius: 0.077rem;
+}
+
+
+/*Restyle Nav Menu*/
+
+header nav {
+    float: none;
+}
+
+header nav ul {
+    text-align: center;
+}
+
+header nav ul li {
+    display: block;
+    border-top: 1px solid #FFF;
+    margin: 0;
+}
+
+header nav {
+    text-align: center;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    transition: height 250ms ease;
+}
+
+.show {
+    height: calc((1.35em)*4);
+}
+
+
+/*CHANGES TO MOBILE HOMEPAGE*/
+
+#hero {
+    height: 14rem;
+}
+
+#hero h2 {
+    margin: 1rem 0 1rem;
+}
+
+#benefits {
+    padding: 1rem .5rem 1rem;
+}
+
+#testimonial {
+    /*    Make background image repeat in case text is very large on mobile*/
+    background-size: cover;
+    padding: 1.2rem .5rem 1.2rem;
+}
+
+
+/*BLOG STYLING*/
+
+#main {
+    margin: 40px 15px 0 15px;
+}
+
+#posts {
+    width: 100%;
+}
+
+.post img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#sidebar {
+    width: 100%;
+    text-align: center;
+}
+
+#sidebar img {
+    border: 1px solid #043049;
+    max-width: 240px;
+}
+
+
+/*Center Read More Link*/
+
+.readmore {
+    text-align: center;
+}
+
+
+/*Make Readmore a button*/
+
+.readmore a {
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 0.462rem 0;
+    width: 280px;
+    font-size: 1.076923em;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background: #033048;
+    color: #fff;
+    font-size: .92308em;
+}
+
+
+/*FOOTER LAYOUT*/
+
+footer {
+    padding: 25px 0 15px;
+}
+
+footer .logo {
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 26px 25px;
+}
