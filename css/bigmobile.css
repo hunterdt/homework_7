@@ -1,4 +1,4 @@
-/*Only the blog page gets this*/
+/*Takes effect when screen is > 1000px wide*/
 
 #sidebar {
     float: right;

@@ -1,3 +1,5 @@
+/*takes effect when screen is smaller than 480px wide*/
+
 html {
     font-size: 18px;
 }
